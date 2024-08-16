@@ -1,4 +1,4 @@
-name = "Ab3nk-xl" # todo
+name = "Ab3nk-tunnel" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
@@ -8,7 +8,10 @@ compatibility_date = "2023-05-26"
 pattern = "server.ab3nk.xyz"
 custom_domain = true
 [[routes]]
-pattern = "support.zoom.us.sg1.ab3nk.xyz"
+pattern = "support.zoom.us.sg1.ab3nk-tunnel.us.kg"
+custom_domain = true
+[[routes]]
+pattern = "investors.spotify.com.sg1.ab3nk-tunnel.us.kg"
 custom_domain = true
 
 [vars]
